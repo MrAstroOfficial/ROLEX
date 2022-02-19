@@ -1,5 +1,5 @@
-local script32bit = 'c-oWpDNPJ!ketlRCB=/U!otB)5ypT38s!d+2p%H}ACP2YaA06{aA0t3U_;+jU_=iB0Aw;TGPF53G8{7g1c?:h*f]_1t5IWUVBi4iWns:QX5mP!NKGy,NoA2PNi5FJ(dkYC)05bN((+ZGOD*OG()j0Sv,)7n78fU]r?CY(:H#b}+nOBgVG/Cx0P#d1o)f_t:qdoIW,3i;Dro?XMj-BnDrr[wWZ{v!2}RA[%gjq;Va-kQ[ZBfkw;mi@HL*Z$FFi9aRky.zEZ*pSH#peUMAtDa!U+IbP%t0]1rz]PM2%Y:'
-local script64bit = 'c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+2p%H}ACP2YaA06{aA0t3U_;+jU_=iB0Aw;TGPF53G8{7g1c?:h*f]_1t5IWUVBi4iWns:QX5mP!NKGy,NoA2PNi5FJ(dkYC)05bN((+ZGOD*OG()j0Sv,)7n78fU]r?CY(:H#b}+nOBgVG/Cx0P#d1o)f_t:qdoIW,3i;Dro?XMj-BnDrr[wWZ{v!2}RA[%gjq;Va-kQ[ZBfkw;mi@HL*Z$FFi9aRky.zEZ*pSH#peUMAtDa!U+IbP%t0]1rz]PNl^xN'
+local script32bit = 'c-nQ4u{.G/5QZ/^wpIlL5)^,60Ehv[h;/B4Z6(0jNGV0ECUIM/NsJOlEt?wUfLGu[,67*D55grvDhnt1m.bZ;=[;^xN:*G7/FJ3*CxlSCeu7/Hu6$=boV@a{6*p.3yWqo[Z^Y$gG=z#;3WL#evvt{:E3^2@j!;FF(-Z}[z#urz24D.v5@Lez-vV0rMAo/6LXF[B4R293[Uhk34UX+Vl2Eypab,YK7+Q@lDotHBcA3iDT$*Vh9-beE3u9i)TgD2p@5*7cs,X#iMXYlpbK{K2V-E!^O]+ftOvOs1tbGH@gv!}FKl1aN;q$6]=nYi)334!)/^q.J(LBNB)/mS]kqzOEbW$ynKi}CF^Q!qjPL{'
+local script64bit = 'c-nQ4u{.G/5QZ/^wpIlL5)^,60Ehv[h;/B4Z6(0jNGV0ECUIM/NsJOlEt?wUfLGu[,67*D55grvDhnt1m.bZ;=[;^xN:*G7/FJ3*CzMdSeu7/Hu6$=boV@a{6*p.3yWqo[Z^Y$gG=z#;3WL#evvt{:E3^2@j!;FF(-Z}[z#urz24D.v5@Lez-vV0rMAo/6LXF[B4R293[Uhk34UX+Vl2Eypab,YK7+Q@lDotHBcA3iDT$*Vh9-beE3u9i)TgD2p@5*7cs,X#iMXYlpbK{K2V-E!^O]+ftOvOs1tbGH@gv!}FKl1aN;q$6]=nYi)334!)/^q.J(LBNB)/mS]kqzOEbW$ynKi}CF^Q!+SPMZ'
 
 if   cheatEngineIs64Bit() then
      decodeFunction(script64bit)()
