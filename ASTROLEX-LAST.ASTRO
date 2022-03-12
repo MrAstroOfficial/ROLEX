@@ -1,9 +1,7 @@
-dbk_initialize()
-dbk_useKernelmodeOpenProcess()
-dbk_useKernelmodeProcessMemoryAccess()
-if getOpenedProcessID() then openProcess(getOpenedProcessID()) end
-dbk_writesIgnoreWriteProtection(true)
+local script32bit = 'c-oWpDNPJ!ketlRCB=/U!otB)5ypT38s!d+2p%I7Gmz8*Vh#p_1}rBT29P8RhhuO@kiSm@h^FgL0u!uYJuGZMf^np{!O=,%p^;Dz.n*EO1^DVeCXjX)kOIEk*Z+gA@i-G3#GL$e7LlOT.+!Lo5]}bARE2/_^A8dk3s-JQcw$jrW=niAYi@RiH/F]p006w-9+z'
+local script64bit = 'c-oWpDNPJ!ketlRCB=/U!NS2(5ypT38s!d+2p%I7Gmz8*Vh#p_1}rBT29P8RhhuO@kiSm@h^FgL0u!uYJuGZMf^np{!O=,%p^;Dz.n*EO1^DVeCXjX)kOIEk*Z+gA@i-G3#GL$e7LlOT.+!Lo5]}bARE2/_^A8dk3s-JQcw$jrW=niAYi@RiH/F]p006*X9,C'
 
-function ASTROLX()
-messageDialog("Restart The Process", mtWarning, mbOK)
+if   cheatEngineIs64Bit() then
+     decodeFunction(script64bit)()
+else decodeFunction(script32bit)()
 end
